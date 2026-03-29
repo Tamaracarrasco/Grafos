@@ -10,7 +10,7 @@ ex:Estudiante a rdfs:Class;
 
 ex:Institucion a rdfs:Class;
 
-ex:estudiaEn a rdf:Property;
+ex:estudiaEn rdf:Property;
     rdfs:domain ex:Estudiante;
     rdfs:range ex:Institucion.
 
@@ -27,10 +27,8 @@ ex:tamara-carrasco a ex:Estudiante;
 
 ex:estudiaEn rdfs:label "estudia en"@es.
 
-ex:Estudiante rdfs:comment "Alguien que está matriculado en alguna institución de 
-                            Educación superior"@es.
-ex:Institucion rdfs:comment "Un lugar que forma a profesionales y académicos, reconocido por
-                            el ministerio de educación"@es.
+ex:Estudiante rdfs:comment "Alguien que está matriculado en alguna institución de Educación superior"@es.
+ex:Institucion rdfs:comment "Un lugar que forma a profesionales y académicos, reconocido por el ministerio de educación"@es.
 
 ex:javiu a foaf:Person;
     foaf:name "Javiera Yañez".
