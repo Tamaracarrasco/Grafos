@@ -1,1 +1,3 @@
-En este repo, se sube el archivo Turtle del laboratorio 1.
+# Repositorio Grafos
+En este repositorio, se subirán las entregas (si lo piden)
+de los laboratorios del curso MDS7205.
